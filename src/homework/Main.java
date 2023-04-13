@@ -33,6 +33,8 @@ public class Main {
            }
        if(!arr[arr.length-2].equals(arr[arr.length-1])) {
            result.append(arr[arr.length - 1]);
+       }else{
+           result.append(counter+arr[arr.length-1]);
        }
        return result;
    }
